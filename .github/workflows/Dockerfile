@@ -12,8 +12,9 @@ RUN npm install
 
 # Sao chép toàn bộ mã nguồn vào thư mục làm việc
 # Nhập số tuần dự báo
-n_weeks = int(input("Nhập số tuần muốn dự báo: "))
-n_days = n_weeks * 7  # Chuyển thành số ngày
+
+#n_weeks = int(input("Nhập số tuần muốn dự báo: "))
+#n_days = n_weeks * 7  # Chuyển thành số ngày
 
 # Đọc dữ liệu
 df = pd.read_excel("/kaggle/input/output1/Data system POC_11Nov2024(mod).xlsx", sheet_name="Data- refinitiv")
